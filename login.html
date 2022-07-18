@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title> Login form </title>
+  <link rel="stylesheet" href="stylee.css">
+</head>
+        <body>
+          <form action="index.html" method="post" target="_blank" class="box">
+            <span class="BorderTopBottom"></span>
+            <span class="BorderLeftRight"></span>
+          <h1> Login </h1>
+          <label for="">Username</label><br>
+          <input type="text" name="username" placeholder="Username" autocomplete="off" required title ="name"><br>
+          <label for="">Password</label><br>
+          <input type="password" name="password" placeholder="Input Password" required title ="Input Your Code Here" id="myinput"><br>
+          <input type="checkbox" onclick="myFunction()" title ="Show Password">
+          <label> Show Password </label><br>
+          <input type="submit" value="Login" onclick='alert("Login Menggunakan Account Ini?")' title="Login">
+          <script>
+            function myFunction() {
+            var x = document.getElementById("myinput");
+                 if (x.type === "password") {
+                   x.type = "text";
+                  } else {
+                     x.type = "password";
+                    }
+                   }
+          </script>
+        </form>
+    </body>
+</html>
