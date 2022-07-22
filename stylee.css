@@ -4,7 +4,7 @@
 }
 
 body{
-	background: #D3CEDF;
+	background: #748DA6;
 	font-family: 'comic sans ms';
 }
 
@@ -13,7 +13,7 @@ form.box{
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	background: #C689C6;
+	background: #D3CEDF;
 	padding: 45px;
 	width: 350px;
 	text-align: center;
@@ -29,7 +29,7 @@ form.box{
 	height: 3px;
 	top: -6px;
 	left: -7px;
-	background: #C689C6;
+	background: #9CB4CC;
 	transition: all 1s ease;
 }
 
@@ -40,7 +40,7 @@ form.box{
 	height: 3px;
 	bottom: -6px;
 	right: -7px;
-	background: #C689C6;
+	background: #9CB4CC;
 	transition: all 1s ease;
 }
 
@@ -51,7 +51,7 @@ form.box{
 	left: -7px;
 	width: 3px;
 	height: 65px;
-	background: #C689C6;
+	background: #9CB4CC;
 	transition: all 1s ease;
 }
 
@@ -62,7 +62,7 @@ form.box{
 	right: -7px;
 	width:3px;
 	height: 65px;
-	background: #C689C6;
+	background: #9CB4CC;
 	transition: all 1s ease;
 }
 
@@ -89,7 +89,7 @@ form.box input[type = "text"], form.box input[type = "password"]{
 	text-align: center;
 	padding: 11.5px;
 	background: none;
-	border: 2px solid #748DA6;
+	border: 2px solid #90C8AC;
 	outline: none;
 	color: purple;
 	border-radius: 20px;
